@@ -77,7 +77,3 @@ docs/
 | Charts | Recharts |
 | Maps | Leaflet + react-leaflet |
 | Hosting | Vercel (recommended) |
-
-## License
-
-Internal project — IBM MAG Magdeburg.
