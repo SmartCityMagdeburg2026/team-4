@@ -1,0 +1,2119 @@
+{
+  "meta": {
+    "city": "Magdeburg",
+    "dataSource": "KISS-MD Open Data (Stadt Magdeburg)",
+    "lastUpdated": "2026-06-06",
+    "yearRange": [
+      2010,
+      2024
+    ]
+  },
+  "narratives": {
+    "population": "Population grew by 12,804 residents since 2010 while average age remained above 45 years — deaths exceeded births in 15 of the last 15 years.",
+    "emergency": "Emergency deployments rose 5% since 2010 while population grew 6% — incident volumes remain persistently high for a slowly growing city.",
+    "healthcare": "Altstadt has 33× more physicians per capita than Prester — access depends on where you live.",
+    "insights": "Natural population decline continues despite net migration of +3,550 in 2024.",
+    "risk": "Neue Neustadt ranks highest for healthcare vulnerability — combining aging residents, physician scarcity, and population scale."
+  },
+  "overview": [
+    {
+      "id": "population",
+      "label": "Total Population",
+      "value": 244329,
+      "change": 0.8,
+      "changeLabel": "vs. 2023",
+      "format": "number"
+    },
+    {
+      "id": "births",
+      "label": "Births",
+      "value": 670,
+      "change": -25.6,
+      "changeLabel": "vs. 2023",
+      "format": "number"
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths",
+      "value": 1589,
+      "change": -11.1,
+      "changeLabel": "vs. 2023",
+      "format": "number"
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency Incidents",
+      "value": 53310,
+      "change": -0.6,
+      "changeLabel": "vs. 2023",
+      "format": "number"
+    },
+    {
+      "id": "doctors",
+      "label": "Physicians",
+      "value": 713,
+      "change": 0.1,
+      "changeLabel": "vs. 2022",
+      "format": "number"
+    },
+    {
+      "id": "pharmacies",
+      "label": "Pharmacies",
+      "value": 62,
+      "change": 5.1,
+      "changeLabel": "vs. 2022",
+      "format": "number"
+    }
+  ],
+  "population": {
+    "growth": [
+      {
+        "year": 2010,
+        "value": 231525
+      },
+      {
+        "year": 2011,
+        "value": 228910
+      },
+      {
+        "year": 2012,
+        "value": 229924
+      },
+      {
+        "year": 2013,
+        "value": 231021
+      },
+      {
+        "year": 2014,
+        "value": 232306
+      },
+      {
+        "year": 2015,
+        "value": 235723
+      },
+      {
+        "year": 2016,
+        "value": 238136
+      },
+      {
+        "year": 2017,
+        "value": 238478
+      },
+      {
+        "year": 2018,
+        "value": 238697
+      },
+      {
+        "year": 2019,
+        "value": 237565
+      },
+      {
+        "year": 2020,
+        "value": 235775
+      },
+      {
+        "year": 2021,
+        "value": 236188
+      },
+      {
+        "year": 2022,
+        "value": 241753
+      },
+      {
+        "year": 2023,
+        "value": 242491
+      },
+      {
+        "year": 2024,
+        "value": 244329
+      }
+    ],
+    "birthsDeaths": [
+      {
+        "year": 2010,
+        "births": 977,
+        "deaths": 2039,
+        "naturalChange": -1062
+      },
+      {
+        "year": 2011,
+        "births": 978,
+        "deaths": 2043,
+        "naturalChange": -1065
+      },
+      {
+        "year": 2012,
+        "births": 1037,
+        "deaths": 2137,
+        "naturalChange": -1100
+      },
+      {
+        "year": 2013,
+        "births": 920,
+        "deaths": 2124,
+        "naturalChange": -1204
+      },
+      {
+        "year": 2014,
+        "births": 943,
+        "deaths": 2125,
+        "naturalChange": -1182
+      },
+      {
+        "year": 2015,
+        "births": 1050,
+        "deaths": 2198,
+        "naturalChange": -1148
+      },
+      {
+        "year": 2016,
+        "births": 1074,
+        "deaths": 2401,
+        "naturalChange": -1327
+      },
+      {
+        "year": 2017,
+        "births": 1014,
+        "deaths": 2310,
+        "naturalChange": -1296
+      },
+      {
+        "year": 2018,
+        "births": 1123,
+        "deaths": 2347,
+        "naturalChange": -1224
+      },
+      {
+        "year": 2019,
+        "births": 901,
+        "deaths": 2242,
+        "naturalChange": -1341
+      },
+      {
+        "year": 2020,
+        "births": 852,
+        "deaths": 2132,
+        "naturalChange": -1280
+      },
+      {
+        "year": 2021,
+        "births": 859,
+        "deaths": 2100,
+        "naturalChange": -1241
+      },
+      {
+        "year": 2022,
+        "births": 910,
+        "deaths": 1999,
+        "naturalChange": -1089
+      },
+      {
+        "year": 2023,
+        "births": 901,
+        "deaths": 1787,
+        "naturalChange": -886
+      },
+      {
+        "year": 2024,
+        "births": 670,
+        "deaths": 1589,
+        "naturalChange": -919
+      }
+    ],
+    "migration": [
+      {
+        "year": 2010,
+        "migrationIn": 11049,
+        "migrationOut": 9307,
+        "netMigration": 1742
+      },
+      {
+        "year": 2011,
+        "migrationIn": 11380,
+        "migrationOut": 9978,
+        "netMigration": 1402
+      },
+      {
+        "year": 2012,
+        "migrationIn": 11230,
+        "migrationOut": 9760,
+        "netMigration": 1470
+      },
+      {
+        "year": 2013,
+        "migrationIn": 11716,
+        "migrationOut": 10006,
+        "netMigration": 1710
+      },
+      {
+        "year": 2014,
+        "migrationIn": 12679,
+        "migrationOut": 10796,
+        "netMigration": 1883
+      },
+      {
+        "year": 2015,
+        "migrationIn": 14531,
+        "migrationOut": 10509,
+        "netMigration": 4022
+      },
+      {
+        "year": 2016,
+        "migrationIn": 16155,
+        "migrationOut": 13126,
+        "netMigration": 3029
+      },
+      {
+        "year": 2017,
+        "migrationIn": 14835,
+        "migrationOut": 13845,
+        "netMigration": 990
+      },
+      {
+        "year": 2018,
+        "migrationIn": 13990,
+        "migrationOut": 12871,
+        "netMigration": 1119
+      },
+      {
+        "year": 2019,
+        "migrationIn": 13192,
+        "migrationOut": 13510,
+        "netMigration": -318
+      },
+      {
+        "year": 2020,
+        "migrationIn": 12694,
+        "migrationOut": 13413,
+        "netMigration": -719
+      },
+      {
+        "year": 2021,
+        "migrationIn": 15474,
+        "migrationOut": 13893,
+        "netMigration": 1581
+      },
+      {
+        "year": 2022,
+        "migrationIn": 23914,
+        "migrationOut": 19112,
+        "netMigration": 4802
+      },
+      {
+        "year": 2023,
+        "migrationIn": 17935,
+        "migrationOut": 15473,
+        "netMigration": 2462
+      },
+      {
+        "year": 2024,
+        "migrationIn": 16427,
+        "migrationOut": 12877,
+        "netMigration": 3550
+      }
+    ],
+    "averageAge": [
+      {
+        "year": 2010,
+        "value": 45.7
+      },
+      {
+        "year": 2011,
+        "value": 45.8
+      },
+      {
+        "year": 2012,
+        "value": 45.9
+      },
+      {
+        "year": 2013,
+        "value": 45.4
+      },
+      {
+        "year": 2014,
+        "value": 45.4
+      },
+      {
+        "year": 2015,
+        "value": 45.2
+      },
+      {
+        "year": 2016,
+        "value": 45.0
+      },
+      {
+        "year": 2017,
+        "value": 45.1
+      },
+      {
+        "year": 2018,
+        "value": 45.1
+      },
+      {
+        "year": 2019,
+        "value": 45.2
+      },
+      {
+        "year": 2020,
+        "value": 45.4
+      },
+      {
+        "year": 2021,
+        "value": 45.4
+      },
+      {
+        "year": 2022,
+        "value": 45.2
+      },
+      {
+        "year": 2023,
+        "value": 45.2
+      },
+      {
+        "year": 2024,
+        "value": 45.2
+      }
+    ]
+  },
+  "emergency": {
+    "timeline": [
+      {
+        "year": 2010,
+        "total": 50730,
+        "medicalVehicles": 10275,
+        "rescueTransport": 27014,
+        "ambulances": 13192,
+        "helicopter": 249
+      },
+      {
+        "year": 2011,
+        "total": 47812,
+        "medicalVehicles": 9230,
+        "rescueTransport": 26622,
+        "ambulances": 11576,
+        "helicopter": 384
+      },
+      {
+        "year": 2012,
+        "total": 51814,
+        "medicalVehicles": 9413,
+        "rescueTransport": 28491,
+        "ambulances": 13546,
+        "helicopter": 364
+      },
+      {
+        "year": 2013,
+        "total": 51461,
+        "medicalVehicles": 8860,
+        "rescueTransport": 29502,
+        "ambulances": 12797,
+        "helicopter": 302
+      },
+      {
+        "year": 2014,
+        "total": 51261,
+        "medicalVehicles": 8500,
+        "rescueTransport": 29838,
+        "ambulances": 12608,
+        "helicopter": 315
+      },
+      {
+        "year": 2015,
+        "total": 51067,
+        "medicalVehicles": 8964,
+        "rescueTransport": 32716,
+        "ambulances": 9072,
+        "helicopter": 315
+      },
+      {
+        "year": 2016,
+        "total": 51317,
+        "medicalVehicles": 8857,
+        "rescueTransport": 33627,
+        "ambulances": 8536,
+        "helicopter": 297
+      },
+      {
+        "year": 2017,
+        "total": 53072,
+        "medicalVehicles": 8958,
+        "rescueTransport": 34909,
+        "ambulances": 8908,
+        "helicopter": 297
+      },
+      {
+        "year": 2018,
+        "total": 54705,
+        "medicalVehicles": 8488,
+        "rescueTransport": 36388,
+        "ambulances": 9644,
+        "helicopter": 185
+      },
+      {
+        "year": 2019,
+        "total": 56773,
+        "medicalVehicles": 8439,
+        "rescueTransport": 34526,
+        "ambulances": 13660,
+        "helicopter": 148
+      },
+      {
+        "year": 2020,
+        "total": 55197,
+        "medicalVehicles": 8260,
+        "rescueTransport": 33044,
+        "ambulances": 13729,
+        "helicopter": 164
+      },
+      {
+        "year": 2021,
+        "total": 57428,
+        "medicalVehicles": 8099,
+        "rescueTransport": 34345,
+        "ambulances": 14830,
+        "helicopter": 154
+      },
+      {
+        "year": 2022,
+        "total": 58096,
+        "medicalVehicles": 7916,
+        "rescueTransport": 36225,
+        "ambulances": 13842,
+        "helicopter": 113
+      },
+      {
+        "year": 2023,
+        "total": 53610,
+        "medicalVehicles": 7704,
+        "rescueTransport": 34356,
+        "ambulances": 11439,
+        "helicopter": 111
+      },
+      {
+        "year": 2024,
+        "total": 53310,
+        "medicalVehicles": 7907,
+        "rescueTransport": 34451,
+        "ambulances": 10831,
+        "helicopter": 121
+      }
+    ],
+    "latestBreakdown": [
+      {
+        "label": "Emergency Medical (Notarzt)",
+        "value": 7907,
+        "color": "#2D4A3E"
+      },
+      {
+        "label": "Patient Transport",
+        "value": 34451,
+        "color": "#3D6B8E"
+      },
+      {
+        "label": "Rescue Operations",
+        "value": 10831,
+        "color": "#5C6B4A"
+      },
+      {
+        "label": "Air Rescue",
+        "value": 121,
+        "color": "#A65D2E"
+      }
+    ]
+  },
+  "healthcare": {
+    "facilities": [
+      {
+        "id": "fac-ukmd",
+        "name": "Universitätsklinikum Magdeburg",
+        "type": "facility",
+        "lat": 52.121,
+        "lng": 11.658,
+        "district": "Sudenburg",
+        "specialty": "University Hospital",
+        "districtCode": "24"
+      },
+      {
+        "id": "fac-stmarien",
+        "name": "Krankenhaus St. Marien",
+        "type": "facility",
+        "lat": 52.127,
+        "lng": 11.618,
+        "district": "Stadtfeld Ost",
+        "specialty": "Community Hospital",
+        "districtCode": "06"
+      },
+      {
+        "id": "fac-mvz",
+        "name": "MVZ Magdeburg",
+        "type": "facility",
+        "lat": 52.14,
+        "lng": 11.64,
+        "district": "Neustädter Feld",
+        "specialty": "Medical Center",
+        "districtCode": "30"
+      },
+      {
+        "id": "doc-01-2023",
+        "name": "Altstadt — 233 physicians",
+        "type": "doctor",
+        "lat": 52.131,
+        "lng": 11.639,
+        "district": "Altstadt",
+        "districtCode": "01",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-01-2023",
+        "name": "Altstadt — 10 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.133,
+        "lng": 11.641,
+        "district": "Altstadt",
+        "districtCode": "01"
+      },
+      {
+        "id": "doc-02-2023",
+        "name": "Alte Neustadt — 3 physicians",
+        "type": "doctor",
+        "lat": 52.145,
+        "lng": 11.655,
+        "district": "Alte Neustadt",
+        "districtCode": "02",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "doc-04-2023",
+        "name": "Neue Neustadt — 11 physicians",
+        "type": "doctor",
+        "lat": 52.138,
+        "lng": 11.652,
+        "district": "Neue Neustadt",
+        "districtCode": "04",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-04-2023",
+        "name": "Neue Neustadt — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.14,
+        "lng": 11.654,
+        "district": "Neue Neustadt",
+        "districtCode": "04"
+      },
+      {
+        "id": "doc-06-2023",
+        "name": "Stadtfeld Ost — 42 physicians",
+        "type": "doctor",
+        "lat": 52.128,
+        "lng": 11.625,
+        "district": "Stadtfeld Ost",
+        "districtCode": "06",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-06-2023",
+        "name": "Stadtfeld Ost — 5 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.13,
+        "lng": 11.627,
+        "district": "Stadtfeld Ost",
+        "districtCode": "06"
+      },
+      {
+        "id": "doc-08-2023",
+        "name": "Stadtfeld West — 13 physicians",
+        "type": "doctor",
+        "lat": 52.135,
+        "lng": 11.615,
+        "district": "Stadtfeld West",
+        "districtCode": "08",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-08-2023",
+        "name": "Stadtfeld West — 2 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.137,
+        "lng": 11.617,
+        "district": "Stadtfeld West",
+        "districtCode": "08"
+      },
+      {
+        "id": "doc-10-2023",
+        "name": "Diesdorf — 6 physicians",
+        "type": "doctor",
+        "lat": 52.118,
+        "lng": 11.58,
+        "district": "Diesdorf",
+        "districtCode": "10",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-10-2023",
+        "name": "Diesdorf — 2 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.120000000000005,
+        "lng": 11.582,
+        "district": "Diesdorf",
+        "districtCode": "10"
+      },
+      {
+        "id": "doc-12-2023",
+        "name": "Cracau — 18 physicians",
+        "type": "doctor",
+        "lat": 52.125,
+        "lng": 11.655,
+        "district": "Cracau",
+        "districtCode": "12",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-12-2023",
+        "name": "Cracau — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.127,
+        "lng": 11.657,
+        "district": "Cracau",
+        "districtCode": "12"
+      },
+      {
+        "id": "doc-18-2023",
+        "name": "Buckau — 3 physicians",
+        "type": "doctor",
+        "lat": 52.122,
+        "lng": 11.648,
+        "district": "Buckau",
+        "districtCode": "18",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-18-2023",
+        "name": "Buckau — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.124,
+        "lng": 11.65,
+        "district": "Buckau",
+        "districtCode": "18"
+      },
+      {
+        "id": "doc-20-2023",
+        "name": "Fermersleben — 7 physicians",
+        "type": "doctor",
+        "lat": 52.115,
+        "lng": 11.635,
+        "district": "Fermersleben",
+        "districtCode": "20",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-20-2023",
+        "name": "Fermersleben — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.117000000000004,
+        "lng": 11.637,
+        "district": "Fermersleben",
+        "districtCode": "20"
+      },
+      {
+        "id": "doc-22-2023",
+        "name": "Salbke — 23 physicians",
+        "type": "doctor",
+        "lat": 52.11,
+        "lng": 11.66,
+        "district": "Salbke",
+        "districtCode": "22",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-22-2023",
+        "name": "Salbke — 3 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.112,
+        "lng": 11.662,
+        "district": "Salbke",
+        "districtCode": "22"
+      },
+      {
+        "id": "doc-24-2023",
+        "name": "Sudenburg — 79 physicians",
+        "type": "doctor",
+        "lat": 52.118,
+        "lng": 11.605,
+        "district": "Sudenburg",
+        "districtCode": "24",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-24-2023",
+        "name": "Sudenburg — 7 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.120000000000005,
+        "lng": 11.607000000000001,
+        "district": "Sudenburg",
+        "districtCode": "24"
+      },
+      {
+        "id": "doc-26-2023",
+        "name": "Leipziger Straße — 33 physicians",
+        "type": "doctor",
+        "lat": 52.108,
+        "lng": 11.625,
+        "district": "Leipziger Straße",
+        "districtCode": "26",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-26-2023",
+        "name": "Leipziger Straße — 3 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.11,
+        "lng": 11.627,
+        "district": "Leipziger Straße",
+        "districtCode": "26"
+      },
+      {
+        "id": "doc-28-2023",
+        "name": "Reform — 2 physicians",
+        "type": "doctor",
+        "lat": 52.105,
+        "lng": 11.64,
+        "district": "Reform",
+        "districtCode": "28",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-28-2023",
+        "name": "Reform — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.107,
+        "lng": 11.642000000000001,
+        "district": "Reform",
+        "districtCode": "28"
+      },
+      {
+        "id": "doc-30-2023",
+        "name": "Neustädter Feld — 74 physicians",
+        "type": "doctor",
+        "lat": 52.155,
+        "lng": 11.625,
+        "district": "Neustädter Feld",
+        "districtCode": "30",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-30-2023",
+        "name": "Neustädter Feld — 5 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.157000000000004,
+        "lng": 11.627,
+        "district": "Neustädter Feld",
+        "districtCode": "30"
+      },
+      {
+        "id": "doc-32-2023",
+        "name": "Kannenstieg — 17 physicians",
+        "type": "doctor",
+        "lat": 52.148,
+        "lng": 11.6,
+        "district": "Kannenstieg",
+        "districtCode": "32",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-32-2023",
+        "name": "Kannenstieg — 2 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.150000000000006,
+        "lng": 11.602,
+        "district": "Kannenstieg",
+        "districtCode": "32"
+      },
+      {
+        "id": "doc-34-2023",
+        "name": "Hopfengarten — 2 physicians",
+        "type": "doctor",
+        "lat": 52.142,
+        "lng": 11.59,
+        "district": "Hopfengarten",
+        "districtCode": "34",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "doc-36-2023",
+        "name": "Nordwest — 54 physicians",
+        "type": "doctor",
+        "lat": 52.15,
+        "lng": 11.58,
+        "district": "Nordwest",
+        "districtCode": "36",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-36-2023",
+        "name": "Nordwest — 4 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.152,
+        "lng": 11.582,
+        "district": "Nordwest",
+        "districtCode": "36"
+      },
+      {
+        "id": "doc-38-2023",
+        "name": "Neu Olvenstedt — 10 physicians",
+        "type": "doctor",
+        "lat": 52.16,
+        "lng": 11.57,
+        "district": "Neu Olvenstedt",
+        "districtCode": "38",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-38-2023",
+        "name": "Neu Olvenstedt — 3 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.162,
+        "lng": 11.572000000000001,
+        "district": "Neu Olvenstedt",
+        "districtCode": "38"
+      },
+      {
+        "id": "doc-40-2023",
+        "name": "Alt Olvenstedt — 8 physicians",
+        "type": "doctor",
+        "lat": 52.168,
+        "lng": 11.56,
+        "district": "Alt Olvenstedt",
+        "districtCode": "40",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-40-2023",
+        "name": "Alt Olvenstedt — 2 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.17,
+        "lng": 11.562000000000001,
+        "district": "Alt Olvenstedt",
+        "districtCode": "40"
+      },
+      {
+        "id": "doc-44-2023",
+        "name": "Ottersleben — 29 physicians",
+        "type": "doctor",
+        "lat": 52.1,
+        "lng": 11.59,
+        "district": "Ottersleben",
+        "districtCode": "44",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-44-2023",
+        "name": "Ottersleben — 3 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.102000000000004,
+        "lng": 11.592,
+        "district": "Ottersleben",
+        "districtCode": "44"
+      },
+      {
+        "id": "doc-46-2023",
+        "name": "Lemsdorf — 4 physicians",
+        "type": "doctor",
+        "lat": 52.095,
+        "lng": 11.61,
+        "district": "Lemsdorf",
+        "districtCode": "46",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-46-2023",
+        "name": "Lemsdorf — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.097,
+        "lng": 11.612,
+        "district": "Lemsdorf",
+        "districtCode": "46"
+      },
+      {
+        "id": "doc-48-2023",
+        "name": "Westerhüsen — 3 physicians",
+        "type": "doctor",
+        "lat": 52.09,
+        "lng": 11.63,
+        "district": "Westerhüsen",
+        "districtCode": "48",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "doc-52-2023",
+        "name": "Randau-Calenberge — 5 physicians",
+        "type": "doctor",
+        "lat": 52.07,
+        "lng": 11.65,
+        "district": "Randau-Calenberge",
+        "districtCode": "52",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-52-2023",
+        "name": "Randau-Calenberge — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.072,
+        "lng": 11.652000000000001,
+        "district": "Randau-Calenberge",
+        "districtCode": "52"
+      },
+      {
+        "id": "doc-54-2023",
+        "name": "Prester — 1 physicians",
+        "type": "doctor",
+        "lat": 52.075,
+        "lng": 11.68,
+        "district": "Prester",
+        "districtCode": "54",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "doc-56-2023",
+        "name": "Herrenkrug — 27 physicians",
+        "type": "doctor",
+        "lat": 52.16,
+        "lng": 11.7,
+        "district": "Herrenkrug",
+        "districtCode": "56",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-56-2023",
+        "name": "Herrenkrug — 2 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.162,
+        "lng": 11.702,
+        "district": "Herrenkrug",
+        "districtCode": "56"
+      },
+      {
+        "id": "doc-64-2023",
+        "name": "Neustädter See — 1 physicians",
+        "type": "doctor",
+        "lat": 52.15,
+        "lng": 11.68,
+        "district": "Neustädter See",
+        "districtCode": "64",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "doc-66-2023",
+        "name": "Elbe — 2 physicians",
+        "type": "doctor",
+        "lat": 52.12,
+        "lng": 11.7,
+        "district": "Elbe",
+        "districtCode": "66",
+        "specialty": "District aggregate (KISS-MD)"
+      },
+      {
+        "id": "pha-66-2023",
+        "name": "Elbe — 1 pharmacies",
+        "type": "pharmacy",
+        "lat": 52.122,
+        "lng": 11.702,
+        "district": "Elbe",
+        "districtCode": "66"
+      },
+      {
+        "id": "doc-78-2023",
+        "name": "Ebendorf — 1 physicians",
+        "type": "doctor",
+        "lat": 52.11,
+        "lng": 11.72,
+        "district": "Ebendorf",
+        "districtCode": "78",
+        "specialty": "District aggregate (KISS-MD)"
+      }
+    ],
+    "districtSummary": [
+      {
+        "district": "Altstadt",
+        "districtCode": "01",
+        "doctors": 233,
+        "pharmacies": 10,
+        "facilities": 0,
+        "population": 17002,
+        "ratioPer1000": 13.7,
+        "elderlyPct": 25.7,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Alte Neustadt",
+        "districtCode": "02",
+        "doctors": 3,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 3014,
+        "ratioPer1000": 1.0,
+        "elderlyPct": 8.2,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Neue Neustadt",
+        "districtCode": "04",
+        "doctors": 11,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 12374,
+        "ratioPer1000": 0.89,
+        "elderlyPct": 30.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Stadtfeld Ost",
+        "districtCode": "06",
+        "doctors": 42,
+        "pharmacies": 5,
+        "facilities": 1,
+        "population": 16264,
+        "ratioPer1000": 2.58,
+        "elderlyPct": 30.5,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Stadtfeld West",
+        "districtCode": "08",
+        "doctors": 13,
+        "pharmacies": 2,
+        "facilities": 0,
+        "population": 11477,
+        "ratioPer1000": 1.13,
+        "elderlyPct": 23.0,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Diesdorf",
+        "districtCode": "10",
+        "doctors": 6,
+        "pharmacies": 2,
+        "facilities": 0,
+        "population": 6257,
+        "ratioPer1000": 0.96,
+        "elderlyPct": 26.1,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Cracau",
+        "districtCode": "12",
+        "doctors": 18,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 9513,
+        "ratioPer1000": 1.89,
+        "elderlyPct": 13.7,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Buckau",
+        "districtCode": "18",
+        "doctors": 3,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 4488,
+        "ratioPer1000": 0.67,
+        "elderlyPct": 1.7,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Fermersleben",
+        "districtCode": "20",
+        "doctors": 7,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 3768,
+        "ratioPer1000": 1.86,
+        "elderlyPct": 2.2,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Salbke",
+        "districtCode": "22",
+        "doctors": 23,
+        "pharmacies": 3,
+        "facilities": 0,
+        "population": 12092,
+        "ratioPer1000": 1.9,
+        "elderlyPct": 18.0,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Sudenburg",
+        "districtCode": "24",
+        "doctors": 79,
+        "pharmacies": 7,
+        "facilities": 1,
+        "population": 25264,
+        "ratioPer1000": 3.13,
+        "elderlyPct": 10.2,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Leipziger Straße",
+        "districtCode": "26",
+        "doctors": 33,
+        "pharmacies": 3,
+        "facilities": 0,
+        "population": 14464,
+        "ratioPer1000": 2.28,
+        "elderlyPct": 5.0,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Reform",
+        "districtCode": "28",
+        "doctors": 2,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 4143,
+        "ratioPer1000": 0.48,
+        "elderlyPct": 1.4,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Neustädter Feld",
+        "districtCode": "30",
+        "doctors": 74,
+        "pharmacies": 5,
+        "facilities": 1,
+        "population": 18718,
+        "ratioPer1000": 3.95,
+        "elderlyPct": 20.0,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Kannenstieg",
+        "districtCode": "32",
+        "doctors": 17,
+        "pharmacies": 2,
+        "facilities": 0,
+        "population": 10204,
+        "ratioPer1000": 1.67,
+        "elderlyPct": 1.6,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Hopfengarten",
+        "districtCode": "34",
+        "doctors": 2,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 2259,
+        "ratioPer1000": 0.89,
+        "elderlyPct": 6.8,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Nordwest",
+        "districtCode": "36",
+        "doctors": 54,
+        "pharmacies": 4,
+        "facilities": 0,
+        "population": 16473,
+        "ratioPer1000": 3.28,
+        "elderlyPct": 28.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Neu Olvenstedt",
+        "districtCode": "38",
+        "doctors": 10,
+        "pharmacies": 3,
+        "facilities": 0,
+        "population": 11766,
+        "ratioPer1000": 0.85,
+        "elderlyPct": 13.0,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Alt Olvenstedt",
+        "districtCode": "40",
+        "doctors": 8,
+        "pharmacies": 2,
+        "facilities": 0,
+        "population": 4395,
+        "ratioPer1000": 1.82,
+        "elderlyPct": 2.6,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Ottersleben",
+        "districtCode": "44",
+        "doctors": 29,
+        "pharmacies": 3,
+        "facilities": 0,
+        "population": 6936,
+        "ratioPer1000": 4.18,
+        "elderlyPct": 13.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Lemsdorf",
+        "districtCode": "46",
+        "doctors": 4,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 3680,
+        "ratioPer1000": 1.09,
+        "elderlyPct": 18.2,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Westerhüsen",
+        "districtCode": "48",
+        "doctors": 3,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 4613,
+        "ratioPer1000": 0.65,
+        "elderlyPct": 15.5,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Randau-Calenberge",
+        "districtCode": "52",
+        "doctors": 5,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 3487,
+        "ratioPer1000": 1.43,
+        "elderlyPct": 9.5,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Prester",
+        "districtCode": "54",
+        "doctors": 1,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 2454,
+        "ratioPer1000": 0.41,
+        "elderlyPct": 1.5,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Herrenkrug",
+        "districtCode": "56",
+        "doctors": 27,
+        "pharmacies": 2,
+        "facilities": 0,
+        "population": 7915,
+        "ratioPer1000": 3.41,
+        "elderlyPct": 8.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Neustädter See",
+        "districtCode": "64",
+        "doctors": 1,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 1290,
+        "ratioPer1000": 0.78,
+        "elderlyPct": 23.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Elbe",
+        "districtCode": "66",
+        "doctors": 2,
+        "pharmacies": 1,
+        "facilities": 0,
+        "population": 3156,
+        "ratioPer1000": 0.63,
+        "elderlyPct": 9.3,
+        "physicianDataAvailable": true
+      },
+      {
+        "district": "Ebendorf",
+        "districtCode": "78",
+        "doctors": 1,
+        "pharmacies": 0,
+        "facilities": 0,
+        "population": 1256,
+        "ratioPer1000": 0.8,
+        "elderlyPct": 1.4,
+        "physicianDataAvailable": true
+      }
+    ],
+    "excludedDistrictsNote": "2 districts with fewer than 1,000 residents or no physician registrations in KISS-MD are excluded from access rankings.",
+    "accessLens": {
+      "cityTransportTotal": 34451,
+      "busStopRadiusKm": 1.2,
+      "magdeburgBusStops": 450,
+      "compoundGapDistricts": [
+        "Neustädter See"
+      ],
+      "districts": [
+        {
+          "district": "Altstadt",
+          "districtCode": "01",
+          "physiciansPer1000": 13.7,
+          "transportDemand": 2652,
+          "transportPer1000": 156.0,
+          "busStopsNearby": 48,
+          "physicianLevel": "strong",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Alte Neustadt",
+          "districtCode": "02",
+          "physiciansPer1000": 1.0,
+          "transportDemand": 405,
+          "transportPer1000": 134.4,
+          "busStopsNearby": 23,
+          "physicianLevel": "medium",
+          "transportLevel": "medium",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Neue Neustadt",
+          "districtCode": "04",
+          "physiciansPer1000": 0.89,
+          "transportDemand": 2001,
+          "transportPer1000": 161.7,
+          "busStopsNearby": 31,
+          "physicianLevel": "weak",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Stadtfeld Ost",
+          "districtCode": "06",
+          "physiciansPer1000": 2.58,
+          "transportDemand": 2634,
+          "transportPer1000": 162.0,
+          "busStopsNearby": 47,
+          "physicianLevel": "strong",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Stadtfeld West",
+          "districtCode": "08",
+          "physiciansPer1000": 1.13,
+          "transportDemand": 1752,
+          "transportPer1000": 152.7,
+          "busStopsNearby": 32,
+          "physicianLevel": "medium",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Diesdorf",
+          "districtCode": "10",
+          "physiciansPer1000": 0.96,
+          "transportDemand": 979,
+          "transportPer1000": 156.5,
+          "busStopsNearby": 11,
+          "physicianLevel": "medium",
+          "transportLevel": "weak",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Cracau",
+          "districtCode": "12",
+          "physiciansPer1000": 1.89,
+          "transportDemand": 1342,
+          "transportPer1000": 141.1,
+          "busStopsNearby": 21,
+          "physicianLevel": "strong",
+          "transportLevel": "medium",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Buckau",
+          "districtCode": "18",
+          "physiciansPer1000": 0.67,
+          "transportDemand": 566,
+          "transportPer1000": 126.1,
+          "busStopsNearby": 17,
+          "physicianLevel": "weak",
+          "transportLevel": "strong",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Fermersleben",
+          "districtCode": "20",
+          "physiciansPer1000": 1.86,
+          "transportDemand": 478,
+          "transportPer1000": 126.9,
+          "busStopsNearby": 36,
+          "physicianLevel": "medium",
+          "transportLevel": "strong",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Salbke",
+          "districtCode": "22",
+          "physiciansPer1000": 1.9,
+          "transportDemand": 1771,
+          "transportPer1000": 146.5,
+          "busStopsNearby": 7,
+          "physicianLevel": "strong",
+          "transportLevel": "weak",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Sudenburg",
+          "districtCode": "24",
+          "physiciansPer1000": 3.13,
+          "transportDemand": 3455,
+          "transportPer1000": 136.8,
+          "busStopsNearby": 34,
+          "physicianLevel": "strong",
+          "transportLevel": "medium",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Leipziger Straße",
+          "districtCode": "26",
+          "physiciansPer1000": 2.28,
+          "transportDemand": 1885,
+          "transportPer1000": 130.3,
+          "busStopsNearby": 40,
+          "physicianLevel": "strong",
+          "transportLevel": "strong",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Reform",
+          "districtCode": "28",
+          "physiciansPer1000": 0.48,
+          "transportDemand": 521,
+          "transportPer1000": 125.8,
+          "busStopsNearby": 23,
+          "physicianLevel": "weak",
+          "transportLevel": "strong",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Neustädter Feld",
+          "districtCode": "30",
+          "physiciansPer1000": 3.95,
+          "transportDemand": 2787,
+          "transportPer1000": 148.9,
+          "busStopsNearby": 17,
+          "physicianLevel": "strong",
+          "transportLevel": "weak",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Kannenstieg",
+          "districtCode": "32",
+          "physiciansPer1000": 1.67,
+          "transportDemand": 1286,
+          "transportPer1000": 126.0,
+          "busStopsNearby": 20,
+          "physicianLevel": "medium",
+          "transportLevel": "strong",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Hopfengarten",
+          "districtCode": "34",
+          "physiciansPer1000": 0.89,
+          "transportDemand": 299,
+          "transportPer1000": 132.4,
+          "busStopsNearby": 21,
+          "physicianLevel": "weak",
+          "transportLevel": "medium",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Nordwest",
+          "districtCode": "36",
+          "physiciansPer1000": 3.28,
+          "transportDemand": 2623,
+          "transportPer1000": 159.2,
+          "busStopsNearby": 23,
+          "physicianLevel": "strong",
+          "transportLevel": "weak",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Neu Olvenstedt",
+          "districtCode": "38",
+          "physiciansPer1000": 0.85,
+          "transportDemand": 1650,
+          "transportPer1000": 140.2,
+          "busStopsNearby": 15,
+          "physicianLevel": "weak",
+          "transportLevel": "medium",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Alt Olvenstedt",
+          "districtCode": "40",
+          "physiciansPer1000": 1.82,
+          "transportDemand": 560,
+          "transportPer1000": 127.4,
+          "busStopsNearby": 3,
+          "physicianLevel": "medium",
+          "transportLevel": "strong",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Ottersleben",
+          "districtCode": "44",
+          "physiciansPer1000": 4.18,
+          "transportDemand": 975,
+          "transportPer1000": 140.6,
+          "busStopsNearby": 15,
+          "physicianLevel": "strong",
+          "transportLevel": "medium",
+          "transitLevel": "medium",
+          "compoundGap": false,
+          "weakLensCount": 0
+        },
+        {
+          "district": "Lemsdorf",
+          "districtCode": "46",
+          "physiciansPer1000": 1.09,
+          "transportDemand": 540,
+          "transportPer1000": 146.7,
+          "busStopsNearby": 32,
+          "physicianLevel": "medium",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Westerhüsen",
+          "districtCode": "48",
+          "physiciansPer1000": 0.65,
+          "transportDemand": 661,
+          "transportPer1000": 143.3,
+          "busStopsNearby": 28,
+          "physicianLevel": "weak",
+          "transportLevel": "weak",
+          "transitLevel": "strong",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Randau-Calenberge",
+          "districtCode": "52",
+          "physiciansPer1000": 1.43,
+          "transportDemand": 474,
+          "transportPer1000": 135.9,
+          "busStopsNearby": 8,
+          "physicianLevel": "medium",
+          "transportLevel": "medium",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Prester",
+          "districtCode": "54",
+          "physiciansPer1000": 0.41,
+          "transportDemand": 309,
+          "transportPer1000": 125.9,
+          "busStopsNearby": 10,
+          "physicianLevel": "weak",
+          "transportLevel": "strong",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Herrenkrug",
+          "districtCode": "56",
+          "physiciansPer1000": 3.41,
+          "transportDemand": 1064,
+          "transportPer1000": 134.4,
+          "busStopsNearby": 0,
+          "physicianLevel": "strong",
+          "transportLevel": "medium",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 1
+        },
+        {
+          "district": "Neustädter See",
+          "districtCode": "64",
+          "physiciansPer1000": 0.78,
+          "transportDemand": 197,
+          "transportPer1000": 152.7,
+          "busStopsNearby": 5,
+          "physicianLevel": "weak",
+          "transportLevel": "weak",
+          "transitLevel": "weak",
+          "compoundGap": true,
+          "weakLensCount": 3
+        },
+        {
+          "district": "Elbe",
+          "districtCode": "66",
+          "physiciansPer1000": 0.63,
+          "transportDemand": 428,
+          "transportPer1000": 135.6,
+          "busStopsNearby": 0,
+          "physicianLevel": "weak",
+          "transportLevel": "medium",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 2
+        },
+        {
+          "district": "Ebendorf",
+          "districtCode": "78",
+          "physiciansPer1000": 0.8,
+          "transportDemand": 158,
+          "transportPer1000": 125.8,
+          "busStopsNearby": 0,
+          "physicianLevel": "weak",
+          "transportLevel": "strong",
+          "transitLevel": "weak",
+          "compoundGap": false,
+          "weakLensCount": 2
+        }
+      ]
+    }
+  },
+  "insights": {
+    "keyFindings": [
+      {
+        "id": "finding-1",
+        "title": "Deaths exceeded births every year",
+        "body": "In all 15 years since 2010, Magdeburg recorded more deaths than births — a persistent natural population deficit."
+      },
+      {
+        "id": "finding-2",
+        "title": "Emergency demand remains high despite stable population",
+        "body": "Emergency incidents stayed near 53,310 per year in 2024 despite only 6% population growth since 2010."
+      },
+      {
+        "id": "finding-3",
+        "title": "Healthcare access differs sharply by district",
+        "body": "Physician density spans 0.41 to 13.70 per 1,000 residents across districts — a gap of 13.29."
+      },
+      {
+        "id": "finding-4",
+        "title": "Migration offsets population decline",
+        "body": "Net migration of +3,550 in 2024 keeps total population growing, but does not reverse the underlying aging trend."
+      }
+    ],
+    "combinedTimeline": [
+      {
+        "year": 2010,
+        "averageAge": 45.7,
+        "emergencyIncidents": 50730,
+        "doctorsPer1000": 2.32
+      },
+      {
+        "year": 2011,
+        "averageAge": 45.8,
+        "emergencyIncidents": 47812,
+        "doctorsPer1000": 2.4
+      },
+      {
+        "year": 2012,
+        "averageAge": 45.9,
+        "emergencyIncidents": 51814,
+        "doctorsPer1000": 2.51
+      },
+      {
+        "year": 2013,
+        "averageAge": 45.4,
+        "emergencyIncidents": 51461,
+        "doctorsPer1000": 2.65
+      },
+      {
+        "year": 2014,
+        "averageAge": 45.4,
+        "emergencyIncidents": 51261,
+        "doctorsPer1000": 2.69
+      },
+      {
+        "year": 2015,
+        "averageAge": 45.2,
+        "emergencyIncidents": 51067,
+        "doctorsPer1000": 2.71
+      },
+      {
+        "year": 2016,
+        "averageAge": 45.0,
+        "emergencyIncidents": 51317,
+        "doctorsPer1000": 2.73
+      },
+      {
+        "year": 2017,
+        "averageAge": 45.1,
+        "emergencyIncidents": 53072,
+        "doctorsPer1000": 2.77
+      },
+      {
+        "year": 2018,
+        "averageAge": 45.1,
+        "emergencyIncidents": 54705,
+        "doctorsPer1000": 2.77
+      },
+      {
+        "year": 2019,
+        "averageAge": 45.2,
+        "emergencyIncidents": 56773,
+        "doctorsPer1000": 2.78
+      },
+      {
+        "year": 2020,
+        "averageAge": 45.4,
+        "emergencyIncidents": 55197,
+        "doctorsPer1000": 2.94
+      },
+      {
+        "year": 2021,
+        "averageAge": 45.4,
+        "emergencyIncidents": 57428,
+        "doctorsPer1000": 2.96
+      },
+      {
+        "year": 2022,
+        "averageAge": 45.2,
+        "emergencyIncidents": 58096,
+        "doctorsPer1000": 2.95
+      },
+      {
+        "year": 2023,
+        "averageAge": 45.2,
+        "emergencyIncidents": 53610,
+        "doctorsPer1000": 2.94
+      },
+      {
+        "year": 2024,
+        "averageAge": 45.2,
+        "emergencyIncidents": 53310,
+        "doctorsPer1000": 2.92
+      }
+    ]
+  },
+  "riskDistricts": [
+    {
+      "district": "Neue Neustadt",
+      "riskScore": 0.895,
+      "riskLevel": "High",
+      "elderlyPct": 30.3,
+      "physiciansPer1000": 0.89,
+      "population": 12374,
+      "rationale": "high elderly share",
+      "rank": 1
+    },
+    {
+      "district": "Stadtfeld Ost",
+      "riskScore": 0.871,
+      "riskLevel": "High",
+      "elderlyPct": 30.5,
+      "physiciansPer1000": 2.58,
+      "population": 16264,
+      "rationale": "high elderly share, large resident base",
+      "rank": 2
+    },
+    {
+      "district": "Nordwest",
+      "riskScore": 0.82,
+      "riskLevel": "High",
+      "elderlyPct": 28.3,
+      "physiciansPer1000": 3.28,
+      "population": 16473,
+      "rationale": "high elderly share, large resident base",
+      "rank": 3
+    },
+    {
+      "district": "Diesdorf",
+      "riskScore": 0.794,
+      "riskLevel": "High",
+      "elderlyPct": 26.1,
+      "physiciansPer1000": 0.96,
+      "population": 6257,
+      "rationale": "high elderly share",
+      "rank": 4
+    },
+    {
+      "district": "Stadtfeld West",
+      "riskScore": 0.774,
+      "riskLevel": "High",
+      "elderlyPct": 23.0,
+      "physiciansPer1000": 1.13,
+      "population": 11477,
+      "rationale": "above-average aging",
+      "rank": 5
+    },
+    {
+      "district": "Neustädter See",
+      "riskScore": 0.729,
+      "riskLevel": "High",
+      "elderlyPct": 23.3,
+      "physiciansPer1000": 0.78,
+      "population": 1290,
+      "rationale": "above-average aging, low physician density",
+      "rank": 6
+    },
+    {
+      "district": "Neustädter Feld",
+      "riskScore": 0.691,
+      "riskLevel": "High",
+      "elderlyPct": 20.0,
+      "physiciansPer1000": 3.95,
+      "population": 18718,
+      "rationale": "above-average aging, large resident base",
+      "rank": 7
+    },
+    {
+      "district": "Salbke",
+      "riskScore": 0.682,
+      "riskLevel": "High",
+      "elderlyPct": 18.0,
+      "physiciansPer1000": 1.9,
+      "population": 12092,
+      "rationale": "above-average aging",
+      "rank": 8
+    },
+    {
+      "district": "Lemsdorf",
+      "riskScore": 0.659,
+      "riskLevel": "High",
+      "elderlyPct": 18.2,
+      "physiciansPer1000": 1.09,
+      "population": 3680,
+      "rationale": "above-average aging",
+      "rank": 9
+    },
+    {
+      "district": "Neu Olvenstedt",
+      "riskScore": 0.637,
+      "riskLevel": "High",
+      "elderlyPct": 13.0,
+      "physiciansPer1000": 0.85,
+      "population": 11766,
+      "rationale": "moderate composite risk",
+      "rank": 10
+    },
+    {
+      "district": "Westerhüsen",
+      "riskScore": 0.637,
+      "riskLevel": "High",
+      "elderlyPct": 15.5,
+      "physiciansPer1000": 0.65,
+      "population": 4613,
+      "rationale": "low physician density",
+      "rank": 11
+    },
+    {
+      "district": "Sudenburg",
+      "riskScore": 0.609,
+      "riskLevel": "High",
+      "elderlyPct": 10.2,
+      "physiciansPer1000": 3.13,
+      "population": 25264,
+      "rationale": "large resident base",
+      "rank": 12
+    },
+    {
+      "district": "Cracau",
+      "riskScore": 0.603,
+      "riskLevel": "High",
+      "elderlyPct": 13.7,
+      "physiciansPer1000": 1.89,
+      "population": 9513,
+      "rationale": "moderate composite risk",
+      "rank": 13
+    },
+    {
+      "district": "Elbe",
+      "riskScore": 0.538,
+      "riskLevel": "Medium",
+      "elderlyPct": 9.3,
+      "physiciansPer1000": 0.63,
+      "population": 3156,
+      "rationale": "low physician density",
+      "rank": 14
+    },
+    {
+      "district": "Randau-Calenberge",
+      "riskScore": 0.519,
+      "riskLevel": "Medium",
+      "elderlyPct": 9.5,
+      "physiciansPer1000": 1.43,
+      "population": 3487,
+      "rationale": "moderate composite risk",
+      "rank": 15
+    },
+    {
+      "district": "Ottersleben",
+      "riskScore": 0.515,
+      "riskLevel": "Medium",
+      "elderlyPct": 13.3,
+      "physiciansPer1000": 4.18,
+      "population": 6936,
+      "rationale": "moderate composite risk",
+      "rank": 16
+    },
+    {
+      "district": "Alte Neustadt",
+      "riskScore": 0.51,
+      "riskLevel": "Medium",
+      "elderlyPct": 8.2,
+      "physiciansPer1000": 1.0,
+      "population": 3014,
+      "rationale": "moderate composite risk",
+      "rank": 17
+    },
+    {
+      "district": "Leipziger Straße",
+      "riskScore": 0.493,
+      "riskLevel": "Medium",
+      "elderlyPct": 5.0,
+      "physiciansPer1000": 2.28,
+      "population": 14464,
+      "rationale": "moderate composite risk",
+      "rank": 18
+    },
+    {
+      "district": "Hopfengarten",
+      "riskScore": 0.488,
+      "riskLevel": "Medium",
+      "elderlyPct": 6.8,
+      "physiciansPer1000": 0.89,
+      "population": 2259,
+      "rationale": "moderate composite risk",
+      "rank": 19
+    },
+    {
+      "district": "Altstadt",
+      "riskScore": 0.48,
+      "riskLevel": "Medium",
+      "elderlyPct": 25.7,
+      "physiciansPer1000": 13.7,
+      "population": 17002,
+      "rationale": "high elderly share, large resident base",
+      "rank": 20
+    },
+    {
+      "district": "Herrenkrug",
+      "riskScore": 0.47,
+      "riskLevel": "Medium",
+      "elderlyPct": 8.3,
+      "physiciansPer1000": 3.41,
+      "population": 7915,
+      "rationale": "moderate composite risk",
+      "rank": 21
+    },
+    {
+      "district": "Kannenstieg",
+      "riskScore": 0.435,
+      "riskLevel": "Medium",
+      "elderlyPct": 1.6,
+      "physiciansPer1000": 1.67,
+      "population": 10204,
+      "rationale": "moderate composite risk",
+      "rank": 22
+    },
+    {
+      "district": "Buckau",
+      "riskScore": 0.432,
+      "riskLevel": "Medium",
+      "elderlyPct": 1.7,
+      "physiciansPer1000": 0.67,
+      "population": 4488,
+      "rationale": "low physician density",
+      "rank": 23
+    },
+    {
+      "district": "Reform",
+      "riskScore": 0.431,
+      "riskLevel": "Medium",
+      "elderlyPct": 1.4,
+      "physiciansPer1000": 0.48,
+      "population": 4143,
+      "rationale": "low physician density",
+      "rank": 24
+    },
+    {
+      "district": "Prester",
+      "riskScore": 0.425,
+      "riskLevel": "Medium",
+      "elderlyPct": 1.5,
+      "physiciansPer1000": 0.41,
+      "population": 2454,
+      "rationale": "low physician density",
+      "rank": 25
+    },
+    {
+      "district": "Alt Olvenstedt",
+      "riskScore": 0.411,
+      "riskLevel": "Medium",
+      "elderlyPct": 2.6,
+      "physiciansPer1000": 1.82,
+      "population": 4395,
+      "rationale": "moderate composite risk",
+      "rank": 26
+    },
+    {
+      "district": "Ebendorf",
+      "riskScore": 0.405,
+      "riskLevel": "Medium",
+      "elderlyPct": 1.4,
+      "physiciansPer1000": 0.8,
+      "population": 1256,
+      "rationale": "low physician density",
+      "rank": 27
+    },
+    {
+      "district": "Fermersleben",
+      "riskScore": 0.401,
+      "riskLevel": "Medium",
+      "elderlyPct": 2.2,
+      "physiciansPer1000": 1.86,
+      "population": 3768,
+      "rationale": "moderate composite risk",
+      "rank": 28
+    }
+  ]
+}
